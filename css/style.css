@@ -1,0 +1,476 @@
+.h6 {
+  color: white;
+  background-color: #660080;
+
+}
+body {
+
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  background-color: #fffaf0;
+}
+
+
+.logo-container img {
+  height: 90px;
+  width: auto;
+}
+/* Custom styles for the navbar */
+
+.navbar {
+  background: linear-gradient(90deg, #f75dea, #49d6db);
+  color: white;
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  /* Custom Navbar */
+/* Initial navbar styling */
+/* Initial Navbar Styling */
+.custom-navbar {
+  position: relative;
+  background-color: transparent;
+  padding: 20px 0;
+  transition: all 0.4s ease; /* Smooth transition for animations */
+  z-index: 10;
+}
+
+/* Navbar Links */
+.custom-navbar .nav-link {
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+.custom-navbar .nav-link:hover {
+  color: #6f00ff; /* Gold color on hover */
+}
+/* Fixed Navbar Styling */
+.custom-navbar.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0; /* Compact padding when fixed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: all 0.4s ease; /* Smooth animation on scroll */
+}
+
+/* Logo Styling */
+.logo-container img {
+  height: 80px;
+  transition: height 0.4s ease;
+}
+
+.custom-navbar.fixed .logo-container img {
+  height: 40px; /* Reduce logo size when fixed */
+}
+
+/* Navbar Collapse */
+.collapse.show {
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Add a scroll-to-top button (optional) */
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff00ea;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: none; /* Initially hidden */
+  transition: all 0.3s ease;
+}
+
+#scrollToTop:hover {
+  background-color: #00b8e6;
+}
+
+
+
+
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #9608d8 !important;
+}
+
+.btn-search {
+  background-color: #800075, #460066;
+  color: #182848;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+  background-color: #800075, #460066;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbarDropdown {
+  background: linear-gradient(90deg, #b90592, #cc099b);
+  color: white;
+}
+
+.bg:hover {
+
+  color: #000000;
+}
+
+.spinner-border {
+  margin-top: 32%;
+  color: #0a8ec2
+}
+
+.h6 {
+  color: white;
+  background-color: #80007c;
+
+}
+
+.h6 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.men-icon{
+  color: white;
+}
+.men-icon:hover {
+  color:  #9608d8 !important;
+}
+
+
+     /* Custom styles for the kitchen theme */
+     .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .carousel-caption h5 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #31b6ce; /* Kitchen gold tone */
+    }
+    .carousel-caption p {
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    .kitchen-slider img {
+      object-fit: cover;
+      height: 500px;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .kitchen-slider img {
+        height: 300px;
+      }
+      .carousel-caption h5 {
+        font-size: 1.5rem;
+      }
+      .carousel-caption p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .carousel-caption {
+        padding: 10px;
+      }
+      .carousel-caption h5 {
+        font-size: 1.2rem;
+      }
+      .carousel-caption p {
+        font-size: 0.9rem;
+      }
+    }
+
+    footer {
+      background-color: whitesmoke; /* Warm kitchen theme */
+      color: #6c757d;
+      padding: 40px 0;
+    }
+    footer a {
+      color: #6c757d;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #a30a9b; /* Highlighted link color */
+      text-decoration: underline;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: #6c757d;
+    }
+    .social-icons a:hover {
+      color: #a30a75;
+    }
+    .footer-title {
+      color: #a30a8f; /* Accent color for titles */
+      font-weight: bold;
+    }
+    /* Maroon themed Featured Product Section */
+        .featured-product {
+            
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        /* Maroon color for heading */
+        .section-title {
+            font-family: 'Roboto Slab', serif; /* Bold serif font */
+            font-size: 2.5rem;
+            font-weight: bold;
+            color:#a30a8f;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Styling for Product Card */
+        .product-card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .product-img {
+            border-radius: 10px 10px 0 0;
+            height: 200px;
+           width: auto;
+            object-fit:contain;
+        }
+
+        .product-info {
+            padding: 20px;
+            text-align: left;
+        }
+
+        /* Maroon themed Button */
+        .btn-primary {
+            background-color: #ee397b; /* Maroon */
+            border-color: #ff005d;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
+        .btn-primary:hover {
+            background-color: #ee8181; /* Darker Maroon on hover */
+            border-color: #800000;
+        }
+
+        /* Responsive Image size for mobile */
+        @media (max-width: 767px) {
+            .product-img {
+                height: 200px;
+            }
+        }
+
+        .contact-header {
+          background: linear-gradient(90deg, #f75dea, #49d6db); /* Warm kitchen colors */
+          color: white;
+          padding: 50px 0;
+          text-align: center;
+      }
+      .contact-header h1 {
+          font-size: 3rem;
+          font-weight: bold;
+      }
+      .contact-container {
+          padding: 50px 15px;
+      }
+      .form-control:focus {
+          border-color: #ffb74d;
+          box-shadow: 0 0 0 0.2rem rgba(255, 183, 77, 0.25);
+      }
+      .btn-primary {
+        background: linear-gradient(90deg, #006d80, #be0eb0); /* Kitchen-themed button color */
+        border-color:  #800000;
+      }
+      .btn-primary:hover {
+          background-color: #e619d5;
+          border-color: #e61997;
+      }
+      .info-box {
+          padding: 20px;
+          border: 1px solid #e0e0e0;
+          border-radius: 5px;
+          text-align: center;
+          background-color: rgb(255, 255, 255);
+          margin-bottom: 20px;
+      }
+      .info-box i {
+          font-size: 2rem;
+          color: #ff7043;
+          margin-bottom: 10px;
+      }
+      .info-box h5 {
+          color: #d84315; /* Deep kitchen tone */
+      }
+      .map-container {
+          margin-top: 20px;
+      }
+      iframe {
+          border: 0;
+          border-radius: 5px;
+          width: 100%;
+          height: 350px;
+      }
+
+
+      .container-op {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+    }
+    h2 {
+        color: #630066;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .contact-info i {
+        color: #660050;
+        margin-right: 10px;
+    }
+    .btn-primary {
+        background-color: #c928c9;
+        border-color: #80153e;
+    }
+    .btn-primary:hover {
+        background-color: #006280;
+        border-color: #832525;
+    }
+    .kitchen-icon {
+        font-size: 50px;
+        color: #5c0080;
+    }
+    .form-control {
+        border-radius: 10px;
+    }
+
+
+    header {
+      background: linear-gradient(90deg, #f75dea, #49d6db);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card {
+      transition: all 0.3s ease;
+      border: none;
+  }
+
+  .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  #go-to-cart {
+      background-color: #007bff;
+      border: none;
+      display: none; /* Initially hidden until items are added */
+  }
+
+  #go-to-cart:hover {
+      background-color: #0056b3;
+  }
+
+  .btn-warning {
+      background-color: #ff00c8;
+      border: none;
+      transition: background-color 0.3s ease;
+  }
+
+  .btn-warning:hover {
+      background-color:  #ff0080;
+  }
+
+  .list-group-item:hover {
+      background-color: #fff3e0;
+      font-weight: bold;
+      cursor: pointer;
+  }
+
+
+  .lead{
+    color: white;
+    font-size: xx-large;
+}
+.leads{
+    color: white;
+    font-size: larger;
+}
+header {
+    background: linear-gradient(90deg, #f75dea, #49d6db);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+#go-to-cart {
+    background-color: #007bff;
+    border: none;
+    display: none; /* Initially hidden until items are added */
+}
+
+#go-to-cart:hover {
+    background-color: #e654e6;
+}
+
+.btn-warning {
+    background-color: #d084ee;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+    background-color: #ea00ff;
+}
+
+.list-group-item:hover {
+    background-color: #fff3e0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
